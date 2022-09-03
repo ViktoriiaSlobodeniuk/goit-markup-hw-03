@@ -222,7 +222,7 @@ ul {
   | ОСОБЛИВОСТІ
   |============================
 */
-.feature {
+.section{
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -250,6 +250,9 @@ ul {
   | ЧИМ МИ ЗАЙМАЄМОСЯ
   |============================
 */
+.work{
+  padding-top: 0;
+}
 .work-title {
   font-size: 36px;
   line-height: calc(42 / 36);
@@ -275,10 +278,10 @@ ul {
   | НАША КОМАНДА
   |============================
 */
+
 .team {
   background-color: var(--light-bg-cl);
-  padding-top: 94px;
-  padding-bottom: 94px;
+  
 }
 .team-title {
   font-size: 36px;
@@ -327,8 +330,6 @@ ul {
 .footer {
   color: var(--light-txt-cl);
   background-color: var(--dark-bg-cl);
-}
-.footer-line {
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -355,18 +356,10 @@ ul {
   |============================
 */
 
-.portfolio-section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-.portfolio-group {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 .filter-list {
   display: flex;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
+   justify-content: center;
 }
 .filter-btn {
   font-family: inherit;
